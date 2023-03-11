@@ -15,3 +15,5 @@ Javaria's Work can be found under these branches:
   JavariaThirdUserStory
   JavariasAutomationCodes
 
+Sameen's Work can be found under this branches:
+  SameensWork
