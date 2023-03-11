@@ -1,0 +1,17 @@
+All member commited all their tasks in separate branches.
+
+All finalized work can be found on master branch.
+
+User Stories, ECP, BVA, State Dig, Gherkin Test Cases.docx Contains work for all Members.
+Individual Work can be found under individual branches starting with name of member.
+
+Automation Codes Directory contain code for automating gherkin test cases.
+
+Read.md is description of our workflow so far.
+
+Javaria's Work can be found under these branches:
+  JavariaFirstUserStory
+  JavariaSecondUserStory
+  JavariaThirdUserStory
+  JavariasAutomationCodes
+
