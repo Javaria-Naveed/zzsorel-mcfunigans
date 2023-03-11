@@ -18,3 +18,8 @@ Feature: Search Bar
     When I enter a valid email address in the search bar
     And I click the search by email button
     Then I should see a list of contacts matching the email address and list should not contain any contacts with a different email address
+
+  Scenario: Search for a contact by their phone number
+    When I enter a valid phone number in the search bar
+    And I click the search by phone button
+    Then I should see a list of contacts matching the phone number and the list should not contain any contacts with a different phone number

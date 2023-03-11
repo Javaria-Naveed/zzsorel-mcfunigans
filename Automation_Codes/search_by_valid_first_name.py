@@ -3,7 +3,7 @@
 from behave import *
 from selenium.webdriver.common.by import By
 import time
-import NavigatetoContacts
+import NavigatetoApp
 import logintoodoo
 
 
@@ -14,7 +14,7 @@ def log_in(context):
 
 @given('I am on the contacts page')
 def go_to_contacts_module(context):
-    NavigatetoContacts.open_contacts(context)
+    NavigatetoApp.open_app(context, "Contacts")
 
 
 # Searching for first name "Azure"

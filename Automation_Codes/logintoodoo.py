@@ -1,3 +1,5 @@
+# file to automate odoo launch and login - by Javaria 19L1229
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
@@ -11,6 +13,6 @@ def launch_odoo(context, user, pwd):
     username_field.send_keys(user)
     password_field = context.driver.find_element(By.ID, "password")
     password_field.send_keys(pwd)
-    login_button = context.driver.find_element("xpath", "//button[@type='submit']")
+    login_button = context.driver.find_element(By.CSS_SELECTOR, ".btn")
     login_button.click()
     time.sleep(3)
