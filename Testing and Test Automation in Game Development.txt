@@ -1,0 +1,33 @@
+Testing and Test Automation in Game Development
+
+For our project we’ve created a small game in python. We’ve looked into the different ways of testing it, our results have een documented below:
+
+Here are some popular frameworks that can be used for testing Python games:
+1.	Pytest: Pytest is a widely-used testing framework in the Python ecosystem. It provides a simple and expressive way to write tests, supports test discovery, and offers powerful assertion capabilities. Pytest can be used for both unit testing and integration testing of Python games.
+
+2.	Unittest: Unittest is a built-in testing framework in Python that provides a more traditional unit testing approach. It offers a set of testing tools and assertions, allowing you to write test cases for individual functions, methods, or classes in your game.
+
+3.	doctest: The doctest module in Python allows you to write tests within the docstring of a function or method. It's particularly useful for documenting and testing code examples and ensures that the documentation and code remain in sync. It can be handy for testing individual game functions or modules.
+
+4.	Hypothesis: Hypothesis is a powerful property-based testing framework for Python. It allows you to define properties that should hold true for your game's functions or classes, and Hypothesis generates test cases automatically to validate those properties. It's useful for exploring edge cases and finding unexpected behavior.
+
+5.	Pygame (specific to game development): Pygame is a popular library for game development in Python. It includes some built-in testing utilities, such as the pygame.event.get() function, which can be used to simulate user input events for testing game behavior.
+Now, let's dive into pytest in more detail.
+
+Pytest:
+Pytest is a testing framework that provides a range of features and benefits for testing Python applications, including games. Here's why pytest is commonly used for testing Python games:
+1.	Simplicity: Pytest offers a simple and intuitive syntax, making it easy to write tests and assertions. Its simplicity allows developers to quickly get started with writing tests for their games.
+
+2.	Test Discovery: Pytest automatically discovers and runs tests based on naming conventions or specific markers. This makes it convenient to organize and execute tests for different game components.
+
+3.	Fixture Support: Pytest provides powerful fixture support, allowing you to set up and tear down common test data or configurations. This can be useful when testing game components that require specific setups.
+
+4.	Powerful Assertions: Pytest offers a wide range of built-in assertion methods, making it easy to verify expected outcomes and simplify test case code. Its rich assertion library provides a clean and readable way to express test expectations.
+
+5.	Third-Party Integration: Pytest integrates well with other testing tools and libraries, allowing you to extend its capabilities. It supports integration with coverage tools, code analyzers, and plugins for generating reports, among others.
+
+6.	Parallel Execution: Pytest can execute tests in parallel, which can significantly reduce test execution time for larger game projects. This is beneficial when running tests for multiple game components concurrently.
+
+7.	Extensibility: Pytest is highly extensible through plugins, enabling developers to customize and enhance the testing experience. Various community-contributed plugins are available, expanding the capabilities of pytest for game testing.
+
+Overall, pytest provides a comprehensive and flexible testing framework for Python games, combining simplicity with powerful features. It encourages best practices and allows developers to write clear, maintainable tests for their games.
